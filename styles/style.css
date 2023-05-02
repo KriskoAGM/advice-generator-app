@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/manrope');
+
+:root {
+    --primary-light-cyan: hsl(193, 38%, 86%);
+    --primary-neon-green: hsl(150, 100%, 66%);
+    --neutral-grayish-blue: hsl(217, 19%, 38%);
+    --neutral-dark-grayish-blue: hsl(217, 19%, 24%);
+    --neutral-dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--neutral-dark-blue);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 330px;
+    background-color: var(--neutral-dark-grayish-blue);
+    text-align: center;
+    padding-block: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text {
+    font-size: 11px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: var(--primary-neon-green);
+}
+
+.quote {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--primary-light-cyan);
+    margin-inline: 20px;
+}
+
+.quote span:before {
+    content: "\201C";
+    font-size: 1.2em;
+    color: var(--primary-light-cyan);
+    margin-right: 0.2em;
+}
+
+.quote span:after {
+    content: "\201D";
+    font-size: 1.2em;
+    color: var(--primary-light-cyan);
+    margin-left: 0.2em;
+}
+
+.divider {
+    width: 85%;
+    margin-bottom: 35px;
+}
+
+.desktop-divider {
+    display: none;
+}
+
+.generate-btn {
+    padding: 0;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: var(--primary-neon-green);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.generate-btn img {
+    vertical-align: middle;
+}
+
+.generate-btn:active {
+    box-shadow: 0px 0px 30px var(--primary-neon-green);
+}
