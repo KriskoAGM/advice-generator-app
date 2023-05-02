@@ -1,0 +1,44 @@
+@media screen and (min-width: 486px) {
+    .container {
+        width: 387px;
+    }
+
+    .quote {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 609px) {
+    .container {
+        width: 400px;
+    }
+
+    .quote {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1404px) {
+    .container {
+        width: 650px;
+        border-radius: 15px;
+    }
+
+    .quote {
+        margin-inline: 40px;
+    }
+
+    .mobile-divider {
+        display: none;
+    }
+
+    .desktop-divider {
+        display: block;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .generate-btn:hover {
+        box-shadow: 0px 0px 30px var(--primary-neon-green);
+    }
+}
