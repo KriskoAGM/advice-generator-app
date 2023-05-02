@@ -11,7 +11,7 @@ You can click the button as many times as you like to receive a continuous strea
 ![](./design/mobile-screenshot.png)
 
 ## Installation
-To install the app, simply download the source code and open the index.html file in your web browser. Alternatively, you can visit the live demo at [insert live demo link here].
+To install the app, simply download the source code and open the index.html file in your web browser. Alternatively, you can visit the live demo at [Advice Generator](https://kriskoagm.github.io/advice-generator-app/).
 
 ## Credits
 This app was built using the Advice Slip API.
